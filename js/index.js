@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const TOKEN = '8463842853:AAHcZmQZ3KGtbsm3KPDoPF8B-Ls2hzGTry8'
+  const TOKEN = '${{ secrets.TOKEN }}'
   const CHAT_ID = '-1002563248907'
   const URI_API = `https://api.telegram.org/bot${TOKEN}/sendMessage`
   
