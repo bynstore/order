@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
       <b>заявка с сайта | ${date}</b>\n
       <b>отправитель: </b>${this.user_name.value}
       <b>tg: </b><i>${this.user_tg.value}</i>
-      <b>товар: </b><i>${this.user_tg.value}</i>
+      <b>товар: </b><i>${this.user_cart.value}</i>
       <b>сообщение: </b><i>${this.user_text.value}</i>
     `
 
